@@ -1,3 +1,10 @@
+## Identitas
+
+* Nama : Mohammad Dyandra Maliki
+* NIM : H1D024130
+* Shift Awal & Baru : B / H
+* Link Video : https://youtu.be/pE6hV5fBLy4
+
 # Katalog Buku OpenLibrary
 
 Aplikasi Android katalog buku dinamis berbasis **Kotlin** & **Jetpack Compose** dengan arsitektur **MVVM**. Mengonsumsi data dari [OpenLibrary API](https://openlibrary.org/) secara real-time tanpa API Key.
@@ -31,9 +38,6 @@ Aplikasi Android katalog buku dinamis berbasis **Kotlin** & **Jetpack Compose** 
 
 - **Base URL:** `https://openlibrary.org/`
 - **Endpoint:** `GET /search.json?q={keyword}&limit=20` (Tanpa API Key)
-
-### Data Mapping
-`BookDto` memetakan properti JSON: `key`, `title`, `author_name`, `first_publish_year`, `edition_count`, dan `language`.
 
 ---
 
